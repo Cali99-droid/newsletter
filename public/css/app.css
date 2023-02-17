@@ -19,6 +19,8 @@
     
     
   }
+
+  /** Formulario contacto */
   .form-contact {
     width: 40rem;
     min-width: none;
@@ -94,7 +96,7 @@
    background-color:#4682b4;
    cursor: pointer;
   }
-
+  /** alertas */
   .alerta{
    margin-top: .2rem;
    font-size: 2.5rem;
@@ -112,8 +114,8 @@
     font-size: 1.5rem;
   }
 
+  /** Contenedores */
   .contenedor{
-   
     background-color: white;
     padding: 2rem;
     border-radius: 15px;
@@ -138,6 +140,7 @@
     color: rgb(14, 14, 116);
   }
 
+  /** Lista de usuarios*/
   .lista{
     display: flex;
     justify-content: space-between;

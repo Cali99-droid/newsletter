@@ -14,9 +14,16 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+//** Registro y envio de emails */
 Route::get('/', [RegisterController::class, 'register'])->name('register');
 Route::post('/', [RegisterController::class, 'store']);
+
+//** Muestra a todos los usuarios */
 Route::get('/usuarios', [RegisterController::class, 'show'])->name('show');
+
+
+//* Mensaje de aviso de envio y confirmación de email */
+
 Route::get('/mensaje', [RegisterController::class, 'mensaje'])->name('mensaje');
 Route::post('/mensaje', [RegisterController::class, 'reenviar']);
 Route::get('/confirmar', [RegisterController::class, 'confirmar']);

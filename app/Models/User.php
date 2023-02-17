@@ -10,7 +10,7 @@ use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Support\Facades\Mail;
 use Laravel\Sanctum\HasApiTokens;
-
+//** Modelo Usuario */
 class User extends Authenticatable
 {
     use HasApiTokens, HasFactory, Notifiable;
@@ -47,6 +47,7 @@ class User extends Authenticatable
     ];
 
 
+    //** Funcion que envia el email */ 
     public function enviarEmail()
     {
         $mailData = [
