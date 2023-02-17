@@ -2,7 +2,7 @@
 ![Logo](https://hotmart.com/media/2018/02/image-que-es-newsletter.png)
 
 
-# Aplicacion para validar suscripcion a un Newsletter
+# Sencilla App para validar suscripcion a un Newsletter
 
 Desarrollada con Laravel y MySQL para una evaluación técnica.
 
